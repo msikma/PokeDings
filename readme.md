@@ -24,9 +24,18 @@ Several characters are original and were created to help with developing UIs:
 
 These cannot be used in nicknames and can safely be ignored if they're not needed.
 
-## SVG files
+### SVG files
 
 A collection of SVG images for the characters is available in the [assets/svg/](assets/svg/) directory.
+
+## In the games
+
+In-game, the characters look like this:
+
+<img src="assets/screenshots/nickname-xy.png" alt="Nickname dialog in Pokémon X/Y" width="320">
+<img src="assets/screenshots/nickname-usum.png" alt="Nickname dialog in Pokémon US/UM" width="320">
+
+For Japanese, the full-width characters should be used. This means that, for example, the smiley face character should map to U+E0A0 for English Pokémon, and to U+E082 for Japanese Pokémon.
 
 ## Related projects
 
