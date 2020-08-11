@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'PokeDings';
+  src: url('pokedings.eot');
+  src: url('pokedings.eot?#iefix') format('embedded-opentype'),
+       url('pokedings.woff2') format('woff2'),
+       url('pokedings.woff') format('woff'),
+       url('pokedings.ttf') format('truetype'),
+       url('pokedings.svg#PokeDings') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

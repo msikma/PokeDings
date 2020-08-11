@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PokéDings - Comparison</title>
+    <!--
+    PokéDings - Comparison
+
+    (>﹏<)ゝ
+    -->
+    <link rel="stylesheet" href="./webfont/pokedings.css" type="text/css" charset="utf-8" />
+    <style type="text/css">
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 1.2vw;
+    }
+    </style>
+    <style>
+    i {
+      display: inline-block;
+      font: normal normal normal 50px/1 "PokeDings";
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 130px;
+    }
+
+    img.svg-icon {
+      height: 130px;
+    }
+    img.png-icon {
+      height: 130px;
+    }
+
+    .row {
+      clear: both;
+      max-width: 1050px;
+      margin: 35px auto;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .row:after {
+      content: ".";
+      visibility: hidden;
+      display: block;
+      height: 0;
+      clear: both;
+    }
+
+    .col {
+      float: left;
+      width: 200px;
+    }
+
+    .col.icon-ref {
+      padding: 35px;
+      font-size: 20px;
+      color: silver;
+    }
+
+    .col.header {
+      height: 40px;
+      padding: 0 5px;
+      font-weight: bold;
+      color: silver;
+      text-align: center;
+    }
+
+    .blast-Square_Outline_FW:before { content: "\25a1"}
+    .blast-Triangle_Outline_FW:before { content: "\25b3"}
+    .blast-Diamond_Outline_FW:before { content: "\25c7"}
+    .blast-Circle_Outline_FW:before { content: "\25cb"}
+    .blast-Bullseye_FW:before { content: "\25ce"}
+    .blast-Sun_FW:before { content: "\2600"}
+    .blast-Cloud_FW:before { content: "\2601"}
+    .blast-Umbrella_FW:before { content: "\2602"}
+    .blast-Snowman_FW:before { content: "\2603"}
+    .blast-Star_FW:before { content: "\2605"}
+    .blast-Female_FW:before { content: "\2640"}
+    .blast-Male_FW:before { content: "\2642"}
+    .blast-Club_FW:before { content: "\2663"}
+    .blast-Heart_FW:before { content: "\2665"}
+    .blast-Diamond_FW:before { content: "\2666"}
+    .blast-Spade_FW:before { content: "\2669"}
+    .blast-Eighth_Note_FW:before { content: "\266a"}
+    .blast-Indifferent_FW:before { content: "\e081"}
+    .blast-Happy_FW:before { content: "\e082"}
+    .blast-Frown_FW:before { content: "\e083"}
+    .blast-Angry_FW:before { content: "\e084"}
+    .blast-Arrow_Up_FW:before { content: "\e085"}
+    .blast-Arrow_Down_FW:before { content: "\e086"}
+    .blast-Sleep_FW:before { content: "\e087"}
+    .blast-Ellipsis:before { content: "\e08d"}
+    .blast-Male_HW:before { content: "\e08e"}
+    .blast-Female_HW:before { content: "\e08f"}
+    .blast-Spade_HW:before { content: "\e090"}
+    .blast-Club_HW:before { content: "\e091"}
+    .blast-Heart_HW:before { content: "\e092"}
+    .blast-Diamond_HW:before { content: "\e093"}
+    .blast-Star_HW:before { content: "\e094"}
+    .blast-Bullseye_HW:before { content: "\e095"}
+    .blast-Circle_Outline_HW:before { content: "\e096"}
+    .blast-Square_Outline_HW:before { content: "\e097"}
+    .blast-Triangle_Outline_HW:before { content: "\e098"}
+    .blast-Diamond_Outline_HW:before { content: "\e099"}
+    .blast-Eighth_Note_HW:before { content: "\e09a"}
+    .blast-Sun_HW:before { content: "\e09b"}
+    .blast-Cloud_HW:before { content: "\e09c"}
+    .blast-Umbrella_HW:before { content: "\e09d"}
+    .blast-Snowman_HW:before { content: "\e09e"}
+    .blast-Indifferent_HW:before { content: "\e09f"}
+    .blast-Smile_HW:before { content: "\e0a0"}
+    .blast-Frown_HW:before { content: "\e0a1"}
+    .blast-Angry_HW:before { content: "\e0a2"}
+    .blast-Arrow_Up_HW:before { content: "\e0a3"}
+    .blast-Arrow_Down_HW:before { content: "\e0a4"}
+    .blast-Sleep_HW:before { content: "\e0a5"}
+    .blast-IV_HP_Solid:before { content: "\f000"}
+    .blast-IV_Atk_Solid:before { content: "\f001"}
+    .blast-IV_Def_Solid:before { content: "\f002"}
+    .blast-IV_SpA_Solid:before { content: "\f004"}
+    .blast-IV_SpD_Solid:before { content: "\f005"}
+    .blast-IV_Spe_Solid:before { content: "\f006"}
+    .blast-IV_HP_Outline:before { content: "\f007"}
+    .blast-IV_Atk_Outline:before { content: "\f008"}
+    .blast-IV_Def_Outline:before { content: "\f009"}
+    .blast-IV_SpA_Outline:before { content: "\f010"}
+    .blast-IV_SpD_Outline:before { content: "\f011"}
+    .blast-IV_Spe_Outline:before { content: "\f012"}
+    .blast-Pentagon_Solid:before { content: "\f013"}
+    .blast-Pentagon_Outline:before { content: "\f014"}
+    .blast-Pokerus_Cured:before { content: "\f015"}
+    .blast-Pokemon_Dollar:before { content: "\f016"}
+    .blast-Poke_Ball:before { content: "\f017"}
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col icon-ref header">&nbsp;</div>
+      <div class="col header">Font Icon</div>
+      <div class="col header">SVG Image</div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Square_Outline_FW</div>
+      <div class="col"><i class="blast-Square_Outline_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Square_Outline_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Triangle_Outline_FW</div>
+      <div class="col"><i class="blast-Triangle_Outline_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Triangle_Outline_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Diamond_Outline_FW</div>
+      <div class="col"><i class="blast-Diamond_Outline_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Diamond_Outline_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Circle_Outline_FW</div>
+      <div class="col"><i class="blast-Circle_Outline_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Circle_Outline_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Bullseye_FW</div>
+      <div class="col"><i class="blast-Bullseye_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Bullseye_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Sun_FW</div>
+      <div class="col"><i class="blast-Sun_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Sun_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Cloud_FW</div>
+      <div class="col"><i class="blast-Cloud_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Cloud_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Umbrella_FW</div>
+      <div class="col"><i class="blast-Umbrella_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Umbrella_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Snowman_FW</div>
+      <div class="col"><i class="blast-Snowman_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Snowman_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Star_FW</div>
+      <div class="col"><i class="blast-Star_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Star_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Female_FW</div>
+      <div class="col"><i class="blast-Female_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Female_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Male_FW</div>
+      <div class="col"><i class="blast-Male_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Male_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Club_FW</div>
+      <div class="col"><i class="blast-Club_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Club_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Heart_FW</div>
+      <div class="col"><i class="blast-Heart_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Heart_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Diamond_FW</div>
+      <div class="col"><i class="blast-Diamond_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Diamond_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Spade_FW</div>
+      <div class="col"><i class="blast-Spade_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Spade_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Eighth_Note_FW</div>
+      <div class="col"><i class="blast-Eighth_Note_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Eighth_Note_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Indifferent_FW</div>
+      <div class="col"><i class="blast-Indifferent_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Indifferent_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Happy_FW</div>
+      <div class="col"><i class="blast-Happy_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Happy_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Frown_FW</div>
+      <div class="col"><i class="blast-Frown_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Frown_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Angry_FW</div>
+      <div class="col"><i class="blast-Angry_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Angry_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Arrow_Up_FW</div>
+      <div class="col"><i class="blast-Arrow_Up_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Arrow_Up_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Arrow_Down_FW</div>
+      <div class="col"><i class="blast-Arrow_Down_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Arrow_Down_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Sleep_FW</div>
+      <div class="col"><i class="blast-Sleep_FW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Sleep_FW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Ellipsis</div>
+      <div class="col"><i class="blast-Ellipsis"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Ellipsis.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Male_HW</div>
+      <div class="col"><i class="blast-Male_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Male_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Female_HW</div>
+      <div class="col"><i class="blast-Female_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Female_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Spade_HW</div>
+      <div class="col"><i class="blast-Spade_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Spade_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Club_HW</div>
+      <div class="col"><i class="blast-Club_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Club_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Heart_HW</div>
+      <div class="col"><i class="blast-Heart_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Heart_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Diamond_HW</div>
+      <div class="col"><i class="blast-Diamond_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Diamond_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Star_HW</div>
+      <div class="col"><i class="blast-Star_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Star_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Bullseye_HW</div>
+      <div class="col"><i class="blast-Bullseye_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Bullseye_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Circle_Outline_HW</div>
+      <div class="col"><i class="blast-Circle_Outline_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Circle_Outline_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Square_Outline_HW</div>
+      <div class="col"><i class="blast-Square_Outline_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Square_Outline_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Triangle_Outline_HW</div>
+      <div class="col"><i class="blast-Triangle_Outline_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Triangle_Outline_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Diamond_Outline_HW</div>
+      <div class="col"><i class="blast-Diamond_Outline_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Diamond_Outline_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Eighth_Note_HW</div>
+      <div class="col"><i class="blast-Eighth_Note_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Eighth_Note_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Sun_HW</div>
+      <div class="col"><i class="blast-Sun_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Sun_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Cloud_HW</div>
+      <div class="col"><i class="blast-Cloud_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Cloud_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Umbrella_HW</div>
+      <div class="col"><i class="blast-Umbrella_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Umbrella_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Snowman_HW</div>
+      <div class="col"><i class="blast-Snowman_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Snowman_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Indifferent_HW</div>
+      <div class="col"><i class="blast-Indifferent_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Indifferent_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Smile_HW</div>
+      <div class="col"><i class="blast-Smile_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Smile_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Frown_HW</div>
+      <div class="col"><i class="blast-Frown_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Frown_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Angry_HW</div>
+      <div class="col"><i class="blast-Angry_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Angry_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Arrow_Up_HW</div>
+      <div class="col"><i class="blast-Arrow_Up_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Arrow_Up_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Arrow_Down_HW</div>
+      <div class="col"><i class="blast-Arrow_Down_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Arrow_Down_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Sleep_HW</div>
+      <div class="col"><i class="blast-Sleep_HW"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Sleep_HW.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_HP_Solid</div>
+      <div class="col"><i class="blast-IV_HP_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_HP_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_Atk_Solid</div>
+      <div class="col"><i class="blast-IV_Atk_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_Atk_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_Def_Solid</div>
+      <div class="col"><i class="blast-IV_Def_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_Def_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_SpA_Solid</div>
+      <div class="col"><i class="blast-IV_SpA_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_SpA_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_SpD_Solid</div>
+      <div class="col"><i class="blast-IV_SpD_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_SpD_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_Spe_Solid</div>
+      <div class="col"><i class="blast-IV_Spe_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_Spe_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_HP_Outline</div>
+      <div class="col"><i class="blast-IV_HP_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_HP_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_Atk_Outline</div>
+      <div class="col"><i class="blast-IV_Atk_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_Atk_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_Def_Outline</div>
+      <div class="col"><i class="blast-IV_Def_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_Def_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_SpA_Outline</div>
+      <div class="col"><i class="blast-IV_SpA_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_SpA_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_SpD_Outline</div>
+      <div class="col"><i class="blast-IV_SpD_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_SpD_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">IV_Spe_Outline</div>
+      <div class="col"><i class="blast-IV_Spe_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/IV_Spe_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Pentagon_Solid</div>
+      <div class="col"><i class="blast-Pentagon_Solid"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Pentagon_Solid.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Pentagon_Outline</div>
+      <div class="col"><i class="blast-Pentagon_Outline"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Pentagon_Outline.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Pokerus_Cured</div>
+      <div class="col"><i class="blast-Pokerus_Cured"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Pokerus_Cured.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Pokemon_Dollar</div>
+      <div class="col"><i class="blast-Pokemon_Dollar"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Pokemon_Dollar.svg"/></div>
+    </div>
+    <div class="row">
+      <div class="col icon-ref">Poke_Ball</div>
+      <div class="col"><i class="blast-Poke_Ball"></i></div>
+      <div class="col"><img class="svg-icon" src="svg/Poke_Ball.svg"/></div>
+    </div>
+  </body>
+</html>
