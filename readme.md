@@ -32,8 +32,7 @@ A collection of SVG images for the characters is available in the [assets/svg/](
 
 In-game, the characters look like this:
 
-<img src="assets/screenshots/nickname-xy.png" alt="Nickname dialog in Pokémon X/Y" width="320">
-<img src="assets/screenshots/nickname-usum.png" alt="Nickname dialog in Pokémon US/UM" width="320">
+<img src="assets/screenshots/nickname-xy.png" alt="Nickname dialog in Pokémon X/Y" width="320"> <img src="assets/screenshots/nickname-usum.png" alt="Nickname dialog in Pokémon US/UM" width="320">
 
 For Japanese, the full-width characters should be used. This means that, for example, the smiley face character should map to U+E0A0 for English Pokémon, and to U+E082 for Japanese Pokémon.
 
