@@ -28,6 +28,10 @@ These cannot be used in nicknames and can safely be ignored if they're not neede
 
 A collection of SVG images for the characters is available in the [assets/svg/](assets/svg/) directory.
 
+## Related projects
+
+* [PokéSprite](https://github.com/msikma/pokesprite) – Pokémon sprite database
+
 ## License
 
 [MIT license](http://opensource.org/licenses/MIT)
