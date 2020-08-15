@@ -39,6 +39,7 @@ For Japanese, the full-width characters should be used. This means that, for exa
 ## Related projects
 
 * [PokéSprite](https://github.com/msikma/pokesprite) – Pokémon sprite database
+* [PokéResources](https://github.com/msikma/pokeresources) – Various Pokémon image resources
 
 ## License
 
